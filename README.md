@@ -18,4 +18,21 @@ Visando <strong>ME DESAFIAR</strong>:
 
   1. Decidi fazê-los em separado para melhor diferenciação do que foi depois e o que tinha inicialmente;
   2. Atualizei o <strong>FIGMA</strong> para melhor visualização da ideia;
+  
+      <details>
+      
+        <summary>Imagem e projeto aqui</summary>
+        <a href="https://www.figma.com/file/6o5o8lic3sPzrdW32dwWiC/Jogo-Adivinha%C3%A7%C3%A3o-(Copy)?node-id=0%3A1" target="_blank"><img src="https://github.com/VMPILUSTRA/JogoAdivinhacao/blob/main/projeto-final_figma.png" width=450px/></a>
+      
+      </details>
+  
   3. Projeto finalizado.
+  
+      <details>
+      
+        <summary>Projeto funcionando</summary>
+        <a href=""></a>
+      
+      </details>
+        
+      
