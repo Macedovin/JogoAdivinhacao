@@ -6,6 +6,17 @@
 
 :root {
   font-size: 62.5%;
+  
+  /* ACRESCENTANDO VARIÁVEIS DE COR */
+
+  --hue: 240;
+  --background-main-text: hsl(var(--hue), 0%, 100%);
+  --background-color-one: hsl(199, 88%, 87%);
+  --background-color-two: hsl(217, 96%, 81%);
+  --input-background-color: hsl(212, 23%, 89%);
+  --button-background-color: hsl(var(--hue), 81%, 71%);
+  --button-hover-background-color: hsl(var(--hue), 52%, 60%);
+  --main-text-color: hsl(238, 27%, 28%);
 }
 
 body {
@@ -13,8 +24,8 @@ body {
 
   background: linear-gradient(
     287.56deg,
-    hsl(199, 88%, 87%) 0%,
-    hsl(217, 96%, 81%) 100%
+    var(--background-color-one) 0%,
+    var(--background-color-two) 100%
   );
 
   /*   display: flex;
@@ -35,11 +46,11 @@ input {
 }
 
 button {
-  color: white;
+  color: var(--background-main-text);
   font-size: 1.6rem;
   font-weight: 700;
 
-  background-color: hsl(240, 81%, 71%);
+  background-color: var(--button-background-color);
 
   border-radius: 0 0.4rem 0.4rem 0;
 
@@ -49,7 +60,7 @@ button {
 }
 
 button:hover {
-  background-color: hsl(240, 52%, 60%);
+  background-color: var(--button-hover-background-color);
 }
 
 .hide {
@@ -79,7 +90,7 @@ h1 {
 
 h1,
 p {
-  color: hsl(238, 27%, 28%);
+  color: var(--main-text-color);
 }
 
 p {
@@ -102,7 +113,7 @@ button {
 }
 
 input {
-  background-color: hsl(212, 23%, 89%);
+  background-color: var(--input-background-color);
 
   width: 7rem;
 
@@ -120,4 +131,33 @@ h2 {
   border-radius: 0.4rem;
 
   margin-top: 3.3rem;
+}
+
+/*  ACRESCENTANDO OS ALERTAS */
+
+/* ------- alert items ------*/
+
+p.alerting {
+  color: var(--background-main-text);
+  font-size: 2rem;
+  font-weight: 400;
+
+  background-color: var(--button-background-color);
+
+  padding: 1.2rem 1.6rem;
+  margin-top: 2.3rem;
+
+  border-radius: 0.4rem;
+
+  transition: background 0.3s;
+}
+
+p.lastResults {
+  font-size: 1.8rem;
+
+  margin-top: 2.3rem;
+}
+
+p.lastResults span {
+  color: var(--button-background-color);
 }
