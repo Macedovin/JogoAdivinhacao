@@ -38,7 +38,7 @@ const triedNumbers = lastResults.querySelector('span')
 
 // refatorando um elemento utilizado repetidas vezes
 
-const screenTwoText = screenTwo.querySelector('h2'
+const screenTwoText = screenTwo.querySelector('h2')
 
 // eventos
 
