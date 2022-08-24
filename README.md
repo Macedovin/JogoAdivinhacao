@@ -17,6 +17,15 @@ Visando <strong>ME DESAFIAR</strong>:
 - Decidi acrescentar alguns detalhes a mais no projeto:
 
   1. Decidi fazê-los em separado para melhor diferenciação do que foi depois e o que tinha inicialmente;
+    
+      Adicionando variáveis de captação a elementos relacionadas a alertas ao usuário, refatorando parte do código e adicionando os alertas que são:
+
+      - Se não houver número inserido;
+      - Se o número inserido estiver fora do range proposto;
+      - Se o número é baixo ou alto em relação ao número gerado;
+      - Alertar corretamente, se o acerto for em somente uma tentativa;
+      - Game over, caso o número de tentativas seja maior que o estipulado.
+    
   2. Atualizei o <strong>FIGMA</strong> para melhor visualização da ideia;
   
       <details>
@@ -28,13 +37,12 @@ Visando <strong>ME DESAFIAR</strong>:
       </details>
   
   3. Projeto finalizado.
-  
       <details>
-      
+
         <summary>Projeto funcionando</summary>
         <br/>
         <a href="https://vmpilustra.github.io/JogoAdivinhacao/" target="_blank">Jogo da Adivinhação</a>
-      
+
       </details>
-        
+
       
